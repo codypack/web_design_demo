@@ -1,0 +1,19 @@
+Web designing is the art and science of iteratively organizing and building the 
+content of electronic documents called web pages. The building of the web pages
+is guided by established web designing principles to facilitate effective 
+implementation of the process. A number of issues constitute web designing
+principles. Consideration has to be given to the principle of visual art. 
+The web designer needs to analyze the need for a website: which is a combination 
+of web pages interlinked by hyperlinks on the world wide web. 
+The important issues of usability and accessibility needs to be considered in 
+web designing. For the over all success of a web designing project there are 
+web standards to be adhered to and best practices to be followed.
+
+What are really web pages?
+
+Part of what would have been an addition to this question has been answered in the previous paragragh - that is what a web site is.Technically, Web  pages are electronic documents consisting of markup codes called tags whose usual pairing combinations with content in-between make up web page elements.These collection of tags that define the structure of a web page are called HTML tags or XHTML tags by extension.So a web page can equally be referred to as an HTML document.HTML is the acronym for the phrase Hypertext Markup Language.
+
+Web Designing technologies?
+
+Various tools, applications and technologies are involved in web designing implementation.To start with, other technologies have emerged from the primary HTML technology.Such technologies include cascading stylesheets(CSS), extensible hypertext markup language(XHTML), extensible markup language(XML).On a basic level and for the most part these computer language technologies can be implemented on a software application or tool such as a text editor. A very common example is the notepad text editor. In a text editor you type the code for designing the web page directly. As a designer you are directly responsible for everything including organizing your work folder,files and other web page assets. You take direct responsiblity for debugging your code and ensuring that everything works right.
+  The advent of the GUI editors later came. Graphic User Interface(GUI) editors are also known as What You See Is What You Get editors(WYSIWYG)

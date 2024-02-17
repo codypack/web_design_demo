@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web desig: The big picture</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="web design overview, issues and tools" />
+<meta name="keywords" content="web design, css, html, web usability" />
+<style>
+<!--
+#banner
+{
+ width:100%;
+ height:150px;
+ border:1px solid #000;
+ text-align: center;
+ background-image: url("images/web.jpg");
+}
+nav
+{
+ width: 100%;
+ height: 35px;
+ border: 1px solid #000;
+}
+a
+{
+text-decoration: none;
+}
+a:hover
+{
+ text-decoration: underline;
+ color: red;
+ font-weight: bold;
+}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+
+$(document).ready(function() {
+  setInterval(function() {
+    $("#banner h1").fadeOut(5000).delay(2000).fadeIn(5000);
+  }, 5000);
+});
+
+</script>
+</head>
+<body>
+<header>
+<span style="font-weight: bold; color:#00f;">Web design: All that is to know...</span><br/>
+<hr size="3" width="100% align="left" color="#ff0000" />
+<div id="banner">
+<h1 style="font-size: 70px; color: #e2d429;">WebDesign.com</h1>
+</div>
+<nav>
+<form style="float:right;">
+<input type="text" name="search" placeholder="search" />
+<input type="submit" name="submit" value="Go" />
+</form>
+<p><strong><a href="">Home</a>&nbsp;&nbsp;&nbsp; <a href="">About us</a>&nbsp;&nbsp;&nbsp; <a href="webIssues.html">Web Issues</a>&nbsp;&nbsp;&nbsp; <a href="register.html">Register</a>&nbsp;&nbsp;&nbsp; <a href="faq.html">FAQ</a></strong></p>
+</nav>
+</header>
+<main>
+<section class="bodySecOne"><!--bodySecOne div starts here--> 
+<div id="leftImage"><!--leftImage div starts here--> 
+<img src="images/designer.jpg" style="width: 100%; height: auto;" />
+<span>Usability</span>
+</div><!--leftImage div ends here--> 
+<article>
+Web designing is the art and science of iteratively organizing and building the 
+ Web designing is the art and science of iteratively organizing and building the 
+content of electronic documents called web pages. The building of the web pages
+is guided by established web designing principles to facilitate effective 
+implementation of the process. A number of issues constitute web designing
+principles. Consideration has to be given to the principle of visual art. 
+The web designer needs to analyze the need for a website: which is a combination 
+of web pages interlinked by hyperlinks on the world wide web. 
+The important issues of usability and accessibility needs to be considered in 
+web designing. For the over all success of a web designing project there are 
+web standards to be adhered to and best practices to be followed.
+</article>
+<div id="rightImage"><!--rightImage div starts here--> 
+<img src="images/acess2.jpg" style="width: 100%; height: auto;" />
+<span>Accessibility</span>
+</div><!--rightImage div ends here--> 
+</section><!--bodySecOne div ends here--> 
+<div id="sectionBorder">
+Web Design: The big picture
+</div>
+<section class="bodySectionTwo">
+<aside class="secTwoPicsLeft">
+<div id="upPicLeft">
+<img src="images/bal.jpg" style="width: 100%; height: auto;" />
+<span>Balance</span>
+</div>
+<div id="downPicLeft">
+<img src="images/web2.jpg" style="width: 100%; height: auto;" />
+<span>Visual Art</span>
+</div>
+</aside>
+<article class="firstArticleSecTwo">
+<h3>What are really web pages?</h3>
+
+Part of what would have been an addition to this question has been answered in the previous paragragh - that is what a web site is.Technically, Web  pages are electronic documents consisting of markup codes called tags whose usual pairing combinations with content in-between make up web page elements.These collection of tags that define the structure of a web page are called HTML tags or XHTML tags by extension.So a web page can equally be referred to as an HTML document.HTML is the acronym for the phrase Hypertext Markup Language.
+</article>
+<div class="spaceDiv">
+</div>
+  <article class="secondArticleSecTwo">
+ <h3>Web Designing technologies?</h3>
+
+Various tools, applications and technologies are involved in web designing implementation.To start with, other technologies have emerged from the primary HTML technology.Such technologies include cascading stylesheets(CSS), extensible hypertext markup language(XHTML), extensible markup language(XML).On a basic level and for the most part these computer language technologies can be implemented on a software application or tool such as a text editor. A very common example is the notepad text editor. In a text editor you type the code for designing the web page directly. As a designer you are directly responsible for everything including organizing your work folder,files and other web page assets. You take direct responsiblity for debugging your code and ensuring that everything works right.
+  The advent of the GUI editors later came. Graphic User Interface(GUI) editors are also known as What You See Is What You Get editors(WYSIWYG)
+  </article>
+  <aside class="secTwoPicsRight ">
+  <div id="upPicLeft">
+<img src="images/master.jpg" style="width: 100%; height: auto;" />
+<span>Web tools</span>
+</div>
+<div id="downPicLeft">
+<img src="images/dreanfire.jpg" style="width: 100%; height: auto;" />
+<span>IDEs</span>
+</div>
+  </aside>
+  </section>
+</main>
+  <footer>
+
+  <ul>
+<h3>OTHER TOPICS</h3>
+<li id="other">Web design</li>
+<li>Web development</li>
+<li>Photoshop</li>
+<li>Corel draw</li>
+<li>PHP</li>
+<li>MS Office</li>
+<li>Javascript</li>
+</ul>
+<ul>
+<h3>ONLINE TUTORSHIP</h3>
+<li id="online">Skype Account Name:</li>
+<li id="ola">olakunle.oni2</li>
+<li id="email">Email Address:</li>
+<li id="arch">archtechy@gmail.com</li>
+<li id="res">Resident Address:</li>
+<li id="elu">5 Elufidiya Avenue Airport Road</li>
+<li id= "iba">Ibadan Nigeria</li>
+</ul>
+<ul>
+<h3>SERVICES</h3>
+<li id="service">Researching</li>
+<li>Freelancing support</li>
+<li>Lyric site</li>
+<li>Writing services</li>
+</ul>
+  </footer>
+  </body>
+  </html>
